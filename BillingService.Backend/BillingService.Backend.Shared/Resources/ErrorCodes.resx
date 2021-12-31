@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="ERROR_UNEXPECTED" xml:space="preserve">
+        <value>Unexpected error</value>
+    </data>
+    <data name="SMTP_NOT_AUTHENTICATED" xml:space="preserve">
+        <value>Client is not authenticated with the SMTP server</value>
+    </data>
+    <data name="SMTP_NOT_CONNECTED" xml:space="preserve">
+        <value>Client is not connected to the SMTP server</value>
+    </data>
+    <data name="INVALID_PRIVATE_KEY" xml:space="preserve">
+        <value>Invalid private key</value>
+    </data>
+    <data name="INVALID_ASSOCIATED_USER" xml:space="preserve">
+        <value>Cannot find user for given private key</value>
+    </data>
+    <data name="INVALID_ASSOCIATED_EMAIL" xml:space="preserve">
+        <value>Cannot find email for given user and private key</value>
+    </data>
+    <data name="MISSING_PRICING" xml:space="preserve">
+        <value>Cannot find pricing</value>
+    </data>
+    <data name="MISSING_SERVER_DATA" xml:space="preserve">
+        <value>Cannot find server data</value>
+    </data>
+    <data name="MISSING_EMAIL_DATA" xml:space="preserve">
+        <value>Cannot find email data</value>
+    </data>
+    <data name="ACCESS_FORBIDDEN" xml:space="preserve">
+        <value>User is not authorized to perform the operation</value>
+    </data>
+    <data name="INVALID_API_VERSION" xml:space="preserve">
+        <value>Provided API version seems to be invalid</value>
+    </data>
+</root>
