@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingService.Services.Bil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingService.Services.PaymentService", "BillingService.Services\BillingService.Services.PaymentService\BillingService.Services.PaymentService.csproj", "{389A2030-7C6E-418C-AF30-CE59E968A989}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingService.Services.UserService", "BillingService.Services\BillingService.Services.UserService\BillingService.Services.UserService.csproj", "{FDE29CF1-D5A6-4FE0-83A4-907074302B3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,6 +76,10 @@ Global
 		{389A2030-7C6E-418C-AF30-CE59E968A989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{389A2030-7C6E-418C-AF30-CE59E968A989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{389A2030-7C6E-418C-AF30-CE59E968A989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE29CF1-D5A6-4FE0-83A4-907074302B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE29CF1-D5A6-4FE0-83A4-907074302B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE29CF1-D5A6-4FE0-83A4-907074302B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE29CF1-D5A6-4FE0-83A4-907074302B3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B632C7F7-85D8-41BD-B3EC-D03D39AF45AA} = {ED3DA128-365E-49A1-AC3D-35CDE1D40AEC}
@@ -86,5 +92,6 @@ Global
 		{8D021516-44D5-4854-A710-27F02AA11903} = {FECF68F7-9917-4CBA-85C0-5FE52FCB79C7}
 		{8861A5C9-BC0F-4113-911E-32FC7A37CBA4} = {8CF2943E-239B-4E73-8D8F-DE341E277D99}
 		{389A2030-7C6E-418C-AF30-CE59E968A989} = {8CF2943E-239B-4E73-8D8F-DE341E277D99}
+		{FDE29CF1-D5A6-4FE0-83A4-907074302B3D} = {8CF2943E-239B-4E73-8D8F-DE341E277D99}
 	EndGlobalSection
 EndGlobal
