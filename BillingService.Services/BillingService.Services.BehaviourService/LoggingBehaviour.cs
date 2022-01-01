@@ -1,13 +1,13 @@
-﻿namespace BillingService.Backend.Core.Behaviours;
+﻿namespace BillingService.Services.BehaviourService;
 
 using System.Threading;
 using System.Threading.Tasks;
 using System.Diagnostics.CodeAnalysis;
-using Services.LoggerService;
+using Backend.Core.Services.LoggerService;
 using MediatR;
 
 [ExcludeFromCodeCoverage]
-public class LoggingBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
+public class LoggingBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest : notnull
 {
     private readonly ILoggerService _logger;
 
