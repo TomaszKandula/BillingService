@@ -18,4 +18,6 @@ public class ChargeTypes : Entity<Guid>
     [Required]
     [MaxLength(3)]
     public string CurrencyIso { get; set; }
+
+    public ICollection<UserCharges> UserCharges { get; set; } = new HashSet<UserCharges>();
 }
